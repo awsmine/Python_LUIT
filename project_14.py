@@ -20,3 +20,18 @@ aws_services.insert(5, 'FSx')
 # print the list and the length of the list
 length = len(aws_services)
 print("This is the list of AWS services:", aws_services, " and the length of the list is: ", length)
+
+# remove 2 services from the list by name
+aws_services.remove('Athena')
+aws_services.remove('S3')
+
+# remove 2 services from the list by index
+del aws_services[3]
+del aws_services[4]
+
+# create variables to hold a place in memory for the list and new length of AWS services
+new_list = list(aws_services)
+new_length = len(new_list)
+
+# print the new list and new length of the list
+print("This is th enew list of AWS services: ", new_list, " and new length of the list: ", new_length)
