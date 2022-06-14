@@ -1,1 +1,2 @@
-print('Testng')
+print("Testing")
+print ("New Testing")
